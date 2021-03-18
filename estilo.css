@@ -1,0 +1,113 @@
+/* Limpar formatação padrão */
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background:#D9D9D9;
+}
+
+#menu{
+	background:#F29F05;
+	padding:15px;
+	text-align:center;
+}
+#menu-logo{
+	padding:10px;
+}
+#area-menu{
+	padding:10px;
+}
+
+#area-menu a:link,:visited{
+	text-decoration:none;
+	color:white;
+	padding:5px 10px;
+}
+#area-menu a:hover{
+	color:#F29F05;
+	background:white;
+	border-radius:5px;
+}
+
+#menu h1{
+	color:gray;
+	font-size:2.5em; 
+}
+.blog{
+	color:white;
+}
+
+/* FINAL DA AREA DE MENU */
+
+#conteudo{
+
+	width:920px;
+	margin: 0 auto;
+	padding:15px;
+}
+#conteudo-postagens{
+	width:660px;
+	background:white;
+	float:left;
+	margin-bottom:10px;
+}
+#conteudo-postagens a:link, #conteudo-postagens a:visited {
+    text-decoration:none;
+	color:#F29F05;
+}
+#conteudo-postagens a:hover{
+	 text-decoration:underline;
+	color:#F29F05;
+}
+.postagem{
+	padding:20px;
+	margin-bottom:20px;
+}
+.data-postagem{
+	font-size:0.8em;
+	padding-bottom:10px;
+	margin-bottom:10px;
+	display:block;
+}
+div[class="postagem"] h2{
+	color:#F29F05;
+}
+#conteudo-lateral{
+	width:240px;
+	float:right;
+
+}
+.informações-lateral{
+	background:white;
+	padding:5px;
+	margin-bottom:10px;
+}
+.texto-lateral{
+
+font-size: 0.8em;
+padding:10px;
+border-bottom:1px dotted grey;
+}
+div[class="texto-lateral"] a:link, div[class="texto-lateral"] a:visited{
+	color:orange;
+}
+div[class="informações-lateral"] h3{
+	background:#F29F05;
+	padding:10px;
+}
+.texto-lateral{
+
+font-size: 0.8em;
+padding:10px;
+border-bottom:1px dotted grey;
+
+}
+#rodape{
+	text-align:center;
+	background:grey;
+	clear:both;
+	padding:10px;
+}
